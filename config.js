@@ -7,7 +7,7 @@ const config = {
       ],
     },
   },
-  // wordPressUrl: process.env.GATSBY_WP_URL,
+  wordPressUrl: process.env.GATSBY_WP_URL,
   // pathPrefix: '',
   // paginationPrefix: 'page',
   // addWordPressComments: true,
