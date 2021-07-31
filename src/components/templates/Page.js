@@ -30,7 +30,12 @@ const Page = (props) => {
         }
       />
       <main>
-        <article data-sal="fade" data-sal-duration="600" data-sal-easing="ease">
+        <article
+          data-sal="fade"
+          data-sal-duration="600"
+          data-sal-easing="ease"
+          className="sal-animate"
+        >
           {!skipTitle && (
             <Box as="h1" textStyle="h1Archive">
               <span
