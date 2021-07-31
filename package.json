@@ -15,6 +15,7 @@
     "gatsby": "^3.6.1",
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "html-react-parser": "^1.2.7",
+    "postcss": "^8.3.6",
     "prismjs": "^1.22.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
@@ -31,5 +32,8 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "analyze": "rm -rf .cache && ANALYZE_BUNDLE_SIZE=true gatsby build"
+  },
+  "engines": {
+    "yarn": "YARN NO LONGER USED - use npm instead."
   }
 }

@@ -24,8 +24,8 @@ const CookieCard = ({
       right="1rem"
       sx={{
         maxWidth: '640px',
-        backgroundColor: '#fff',
-        color: '#333',
+        backgroundColor: '#076666',
+        color: '#fff',
         boxShadow:
           '0 10px 15px 5px rgba(0, 0, 0, 0.1), 0 4px 6px 5px rgba(0, 0, 0, 0.05)',
         opacity: 0.8,
@@ -40,25 +40,29 @@ const CookieCard = ({
         <Flex as="div" sx={{ justifyContent: 'flex-end' }}>
           <Button
             onClick={onClick}
+            className="submit-button"
             sx={{
               py: 1,
               px: 2,
               fontSize: '0.875rem',
+              color: '#fff',
+              borderColor: '#fff',
             }}
-            className="submit-button"
           >
             {button}
           </Button>
           {privacyUrl && (
             <Button
               onClick={() => navigate(privacyUrl)}
+              className="submit-button"
               sx={{
                 py: 1,
                 px: 2,
                 ml: 2,
                 fontSize: '0.875rem',
+                color: '#fff',
+                borderColor: '#fff',
               }}
-              className="submit-button"
             >
               {privacyText}
             </Button>
