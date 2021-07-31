@@ -1,5 +1,5 @@
 import React from 'react'
-import CookieCard from './cookieCard'
+import CookieCard from './CookieCard'
 // import { useHasScrolled } from '../hooks/useHasScrolled'
 
 // const consentScroll = useHasScrolled(50)
