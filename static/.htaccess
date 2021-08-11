@@ -1,1 +1,9 @@
+# Force trailing slash
+<IfModule mod_rewrite.c>
+	RewriteCond %{REQUEST_URI} /+[^\.]+$ 
+	RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+</IfModule>
+
+Redirect 301 /in-the-moment/you-have-the-power-to-change-the-world/ https://itsnot42.com/
+Redirect 301 /in-the-moment/you-against-yourself/ https://itsnot42.com/
 Redirect 301 /in-the-moment/you-have-the-power-to-change-the-world/ https://itsnot42.com/
