@@ -6,4 +6,7 @@ RewriteRule ^(.*)$ https://itsnot42.com/$1/ [L,R=301]
 
 Redirect 301 /in-the-moment/you-have-the-power-to-change-the-world/ https://itsnot42.com/
 Redirect 301 /in-the-moment/you-against-yourself/ https://itsnot42.com/
-Redirect 301 /in-the-moment/you-have-the-power-to-change-the-world/ https://itsnot42.com/
+Redirect 301 /news/73-5-ways-to-stop-worrying-about-the-new-browser-history-ruling https://itsnot42.com/news/5-ways-to-stop-worrying-about-the-new-browser-history-ruling/
+Redirect 301 /news/millennials-pepsi-thinks-you-re-an-ignorant-self-absorbed-bunch-of-sjws https://itsnot42.com/news/millennials-pepsi-thinks-you-re-an-ignorant-self-absorbed-bunch-of-sjws/
+Redirect 301 /in-the-moment/believing-is-not-enough/ https://itsnot42.com/
+Redirect 301 /opinion/read-this-before-you-click-share-on-that-next-big-conspiracy-theory https://itsnot42.com/opinion/read-this-before-you-click-share-on-that-next-big-conspiracy-theory/
