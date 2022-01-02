@@ -1,8 +1,8 @@
-import React from 'react'
 import { Box } from '@chakra-ui/react'
+import { useSiteSettings } from '@gatsbywpthemes/gatsby-theme-blog-data/src/hooks'
 import { Link } from 'gatsby'
 import parse from 'html-react-parser'
-import { useSiteSettings } from '@gatsbywpthemes/gatsby-theme-blog-data/src/hooks'
+import React from 'react'
 
 export const FooterContent = () => {
   const siteSettings = useSiteSettings()
@@ -11,7 +11,7 @@ export const FooterContent = () => {
       sx={{
         a: {
           color: 'inherit',
-          fontWeight: 'normal',
+          fontWeight: 'bold',
           textDecoration: 'none',
         },
         'a:hover': {

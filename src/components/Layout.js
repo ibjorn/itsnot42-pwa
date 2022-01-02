@@ -1,8 +1,8 @@
-import React from 'react'
 import { Box, Container } from '@chakra-ui/react'
-import { Header, Footer } from 'gingerThemeComponents'
-import { HelmetForFavicon } from './HelmetForFavicon'
+import { Footer, Header } from 'gingerThemeComponents'
+import React from 'react'
 import CookieConsent from './cookie-notice/CookieConsent'
+import { HelmetForFavicon } from './HelmetForFavicon'
 
 const MaybeWithContainer = ({ useContainer, children }) => {
   return !useContainer ? (

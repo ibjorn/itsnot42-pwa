@@ -1,16 +1,16 @@
-import React from 'react'
 import { Box, useColorMode } from '@chakra-ui/react'
-import { Layout } from 'gingerThemeComponents'
-import { ParsedContent, ActivatePageScripts } from 'gingerThemeUtils'
 import { Seo } from '@gatsbywpthemes/gatsby-plugin-wp-seo'
+import { Layout } from 'gingerThemeComponents'
 import { gutenbergStyles } from 'gingerThemeStyles'
+import { ActivatePageScripts, ParsedContent } from 'gingerThemeUtils'
+import React from 'react'
 
 const Page = (props) => {
   const { page, ctx } = props
   const { content, title, uri, headlesswp } = page
   const skipTitle = headlesswp?.skipTitle || false
   const featuredImage =
-    page.featuredImage?.node.localFile.childImageSharp.original
+    page.featuredImage?.node.localFile.childImageSharp?.original
   const { colorMode } = useColorMode()
 
   return (

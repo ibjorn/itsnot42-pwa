@@ -38,7 +38,7 @@ export const Header = () => {
             textDecoration: 'none',
             fontFamily: 'heading',
             fontWeight: 'heading',
-            fontSize: '5xl',
+            fontSize: '3xl',
             position: 'absolute',
             top: ['auto', 'auto', 0],
             transformOrigin: '0 0',

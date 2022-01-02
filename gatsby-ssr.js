@@ -1,8 +1,5 @@
 import React from 'react'
 import { CustomThemeWrapper, SidebarWrapper } from './src/components'
-import wrap from './wrap-root-element'
-
-export const wrapRootElement = wrap
 
 export const wrapPageElement = ({ element, props }) => (
   <CustomThemeWrapper>

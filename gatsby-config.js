@@ -15,6 +15,8 @@ module.exports = {
     siteUrl,
   },
   plugins: [
+    `@gatsbywpthemes/gatsby-theme-wp-comments`,
+    `@gatsbywpthemes/gatsby-theme-wp-search`,
     {
       resolve: `@gatsbywpthemes/gatsby-theme-blog-data`,
       options: options,

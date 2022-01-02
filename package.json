@@ -2,7 +2,7 @@
   "name": "starter-ginger-dev",
   "description": "WordPress basic theme for Gatsby using WPGraphQL",
   "author": "Paulina Hetman <info@pehaa.com>",
-  "version": "1.0.0",
+  "version": "2.0.2",
   "main": "index.js",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
@@ -12,17 +12,24 @@
     "@fortawesome/react-fontawesome": "^0.1.16",
     "@gatsbywpthemes/gatsby-plugin-gwpt-chakra": "^2.0.1",
     "@gatsbywpthemes/gatsby-plugin-gwpt-packages": "^2.0.4",
+    "@gatsbywpthemes/gatsby-plugin-wp-seo": "^2.0.1",
+    "@gatsbywpthemes/gatsby-plugin-wpcf7": "^2.0.1",
+    "@gatsbywpthemes/gatsby-theme-blog-data": "^2.0.1",
+    "@gatsbywpthemes/gatsby-theme-wp-comments": "^1.0.2",
+    "@gatsbywpthemes/gatsby-theme-wp-search": "^1.0.1",
     "dotenv": "^10.0.0",
-    "gatsby": "^3.14.6",
+    "gatsby": "^4.3.0",
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "html-react-parser": "^1.4.4",
     "postcss": "^8.4.5",
     "prismjs": "^1.25.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.26"
+    "babel-preset-gatsby": "^2.4.0",
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.26",
+    "prettier": "^2.5.1"
   },
   "scripts": {
     "dev": "gatsby clean && gatsby develop",

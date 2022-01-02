@@ -23,8 +23,8 @@ const NotFoundPage = ({ location }) => (
         <span className="page-title-value">404</span>
       </Box>
       <Box className="entry-content" textAlign="center">
-        <p>This is not the page you were looking.</p>
-        <p>Perhaps it's a conspiracy?</p>
+        <p>That page can't be found.</p>
+        <p>It looks like nothing was found at this location.</p>
       </Box>
     </Flex>
   </Layout>

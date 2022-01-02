@@ -61,13 +61,6 @@ export const styles = {
         borderWidth: '1px',
         padding: 2,
       },
-      figure: {
-        my: 4,
-        textAlign: 'center',
-        span: {
-          display: 'inline-block',
-        },
-      },
       figcaption: {
         textAlign: 'center',
         opacity: 0.7,

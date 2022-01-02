@@ -16,8 +16,8 @@ export const fontSizes = {
 }
 
 export const fonts = {
-  body: 'Lexend, sans-serif',
-  heading: 'Special Elite, serif',
+  body: 'Trebuchet MS, sans-serif',
+  heading: 'Trebuchet MS, sans-serif',
 }
 
 export const fontWeights = {
