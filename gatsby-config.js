@@ -10,7 +10,7 @@ const siteUrl = process.env.GATSBY_SITE_URL || options.siteUrl
 module.exports = {
   pathPrefix,
   siteMetadata: {
-    author: `@pehaa`,
+    author: `@itsnot_42`,
     wordPressUrl: process.env.GATSBY_WP_URL,
     siteUrl,
   },
